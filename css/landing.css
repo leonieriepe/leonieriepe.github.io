@@ -1,0 +1,49 @@
+@import "fonts.css";
+
+html {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#wrapper {
+    display: inline-block;
+}
+
+@media (max-width: 576px) {
+    #wrapper {
+        display: inline-grid;
+    }
+}
+
+.background {
+    background: url('../images/landing/landing.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    left: 0px;
+    transition: background 200ms ease-in 50ms;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+
+    font-family: sourcecodepro
+}
+
+@media (max-width: 576px) {
+    #background {
+        background: url('../images/landing/landing.jpg') no-repeat left -100px center fixed;
+        background-size: cover;
+    }
+}
+
+.social {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.social:hover {
+    color: white;
+}
