@@ -1,0 +1,16 @@
+@font-face {
+    font-family: sourcecodepro;
+    src: url(/fonts/SourceCodePro/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: sourcecodepro;
+    src: url(/fonts/SourceCodePro/SourceCodePro-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sourcecodepro;
+    src: url(/fonts/SourceCodePro/SourceCodePro-Italic.ttf);
+    font-style: italic;
+}
