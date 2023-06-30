@@ -50,10 +50,6 @@ contactImages = [
     "images/about/leo.jpg"
 ]
 
-landingImages = [
-    "images/landing/landing.jpg",
-]
-
 function addGalleryImages() {
     const row = document.getElementById('imageRow')
     for (let i = 0; i < 3; i++) {
@@ -78,10 +74,9 @@ function preload(imgs) {
 }
 
 function preloadImages() {
-    preload(landingImages)
-    preload(contactImages)
-
     for (let i = 0; i < 3; i++) {
         preload(galleryImages[i])
     }
+
+    preload(contactImages)
 }
