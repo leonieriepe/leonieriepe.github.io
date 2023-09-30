@@ -34,7 +34,8 @@ body {
 
 @media (max-width: 576px) {
     #background {
-        background: url('../images/landing/landing.jpg') no-repeat left -100px center fixed;
+        /*background: url('../images/landing/landing.jpg') no-repeat left -100px center fixed;*/
+       background: url('../images/landing/landing.jpg') no-repeat center center fixed;
         background-size: cover;
     }
 }
