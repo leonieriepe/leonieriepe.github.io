@@ -9,7 +9,7 @@ function addFooter() {
     footer.className = "d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
 
     footer.innerHTML = `
-        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Leonie Riepe Fotografie</p>
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022-2023 Leonie Riepe Fotografie</p>
         
         <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item"><a href="./impressum.html" class="nav-link px-2 text-muted">Impressum & Datenschutz</a></li>
